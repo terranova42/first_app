@@ -53,6 +53,9 @@ module FirstApp
     # parameters by using an attr_accessible or attr_protected declaration.
     config.active_record.whitelist_attributes = true
 
+    # best practice for developement environment
+    config.eager_load = false
+
     # Enable the asset pipeline
     config.assets.enabled = true
 
