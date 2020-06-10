@@ -1,4 +1,5 @@
 class StaticPagesController < ApplicationController
-	def home
+	def show
+          render params[:page]
 	end
 end
