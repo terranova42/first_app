@@ -5,6 +5,9 @@ gem 'rails', '>=6.0.0'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+# to solve security alerts by dependabot:
+gem "activerecord", ">= 6.1.2.1"
+
 group :development do 
   gem 'sqlite3', '>=1.3.5'
 end
